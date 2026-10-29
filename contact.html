@@ -1,0 +1,124 @@
+s<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact | Discover Maletsunyane</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark site-navbar sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Discover Maletsunyane</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Index</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+        <li class="nav-item">
+        <a class="nav-link" href="services.html">Services</a>
+    </li>
+    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link active" href="contact.html">Contact</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<header class="page-hero contact-hero">
+    <div class="container">
+        <p class="eyebrow">WE WOULD LIKE TO HEAR FROM YOU</p>
+        <h1>Contact and enquiry</h1>
+    </div>
+</header>
+<main>
+    <section class="section-pad">
+    <div class="container"><div class="row g-5">
+<div class="col-lg-5">
+    <p class="eyebrow text-green">GET IN TOUCH</p>
+    <h2 class="section-title">Planning a visit?</h2>
+    <div class="mini-panel mt-4">
+    <h3>Before you travel</h3><ul class="mb-0">
+        <li>Check weather and road conditions.</li>
+        <li>Confirm local guide and access information.</li>
+        <li>Pack suitable clothing and footwear.</li>
+        <li>Respect the environment and community.</li>
+    </ul>
+</div>
+</div>
+<div class="col-lg-7">
+    <div class="form-panel">
+        <h2 class="h3 mb-4">Send an enquiry</h2>
+        <form id="contactForm" novalidate>
+<div class="row g-3">
+<div class="col-md-6">
+    <label for="fullName" class="form-label">Full name *</label>
+    <input type="text" class="form-control" id="fullName" name="fullName" required minlength="2" placeholder="Enter your name">
+    <div class="invalid-feedback">Please enter at least 2 characters.</div>
+</div>
+<div class="col-md-6">
+    <label for="email" class="form-label">Email address *</label>
+    <input type="email" class="form-control" id="email" name="email" required placeholder="name@example.com">
+    <div class="invalid-feedback">Please enter a valid email address.</div>
+</div>
+<div class="col-md-6">
+    <label for="phone" class="form-label">Phone number</label>
+    <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9+() -]{7,20}" placeholder="Optional">
+    <div class="invalid-feedback">Enter a valid phone number.</div>
+</div>
+<div class="col-md-6">
+    <label for="visitDate" class="form-label">Planned visit date</label>
+    <input type="date" class="form-control" id="visitDate" name="visitDate"></div>
+<div class="col-12">
+    <label for="topic" class="form-label">What would you like to know? *</label>
+    <select class="form-select" id="topic" name="topic" required>
+        <option value="">Choose a topic</option>
+        <option>Directions and access</option>
+        <option>Activities and guides</option>
+        <option>School project information</option>
+        <option>Other question</option>
+    </select>
+    <div class="invalid-feedback">Please select a topic.</div>
+</div>
+<div class="col-12">
+    <label for="message" class="form-label">Message *</label>
+    <textarea class="form-control" id="message" name="message" rows="5" minlength="10" required placeholder="Write your message (at least 10 characters)">
+    </textarea>
+    <div class="invalid-feedback">Please write at least 10 characters.</div>
+</div>
+<div class="col-12">
+    <button class="btn btn-dark btn-lg" type="submit">Submit enquiry</button>
+    <button class="btn btn-outline-secondary btn-lg ms-2" type="reset">Clear</button>
+</div>
+</div>
+<div id="formMessage" class="mt-3" role="status" aria-live="polite">
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+    <div class="container d-md-flex justify-content-between">
+     <p>©
+         <span class="current-year">
+         </span> Discover Maletsunyane Falls</p>
+         <p>A student tourism website about Lesotho</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <script src="js/script.js">
+    </script>
+</body>
+</html>
